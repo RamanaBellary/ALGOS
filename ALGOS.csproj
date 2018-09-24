@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CollectionsEx.cs" />
+    <Compile Include="Customer.cs" />
     <Compile Include="DataStructures\LinkedList.cs" />
     <Compile Include="DataStructures\QueueUsingLinkedList.cs" />
     <Compile Include="DataStructures\Sorting.cs" />

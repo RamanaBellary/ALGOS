@@ -19,34 +19,18 @@ using System.Xml.Serialization;
 
 namespace ALGOS
 {
-    [Serializable]
-    public class Customer
-    {
-        public int Id;
-        public string Name;
-        [OptionalField(VersionAdded = 2)]
-        public Address1 Address;
-        [XmlIgnore]
-        public string Password;
-    }
-    public class Address1
-    {
-        public int No { get; set; }
-        public string Address { get; set; }
-    }
     public class Program
     {
         public static void Main(string[] args)
         {
             try
             {
-
                 //GenericsEx.Do();
                 //CollectionsEx.Do();
                 //OperatorsEx.Do();
                 //DelegatesEx.Do();
                 //EquitableEx.Do();
-                IComparerEx.Do();
+                //IComparerEx.Do();
                 //ReflectionEx.Do();
                 //SerializationAndDeSerialization.Do();
                 //StackUsingLinkedList.Do();
@@ -56,7 +40,6 @@ namespace ALGOS
                 #region Sorting
                 //SimpleAndInsertionSort.Do();
                 #endregion
-
 
                 #region Tests
                 //IsPrimeNumber.Do();
